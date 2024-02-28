@@ -8,7 +8,11 @@
 Python, Linux, TensorFlow, C++, OpenCV, Git, Raspberry Pi
   
   <br />
+
+  
 ```json
+
+
   "activity": [
     {
       "id": 0,
