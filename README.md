@@ -13,28 +13,6 @@ Python, Linux, TensorFlow, C++, OpenCV, Git, Raspberry Pi
 ```json
 
 
-  "activity": [
-    {
-      "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한\n 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
-    }
-  ],
-
-```
-
-<br />
-<br />
-<br />
-<br />
-
 ## education
 
 <img width="960" alt="image" src="https://github.com/sjoleee/very-simple-portfolio/assets/82137004/2ddbd623-21f9-4521-8d11-05e6353726d1">
