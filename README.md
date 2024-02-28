@@ -9,69 +9,6 @@ Python, Linux, TensorFlow, C++, OpenCV, Git, Raspberry Pi
   
   <br />
 
-
-```json
-//간소화된 예시
-
-  "project": [
-    {
-      "name": "팀 프로젝트 1",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다.\n 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "isTeam": true,
-    },
-    {
-      "name": "개인 프로젝트 1",
-      "isTeam": false,
-    },
-    {
-      "name": "팀 프로젝트 2",
-      "isTeam": true,
-    },
-    {
-      "name": "개인 프로젝트 2",
-      "isTeam": false,
-    },
-  ],
-
-```
-
-위 경우, 아래와 같이 배치됩니다.
-
-> - Team Project
->   - 팀 프로젝트 2
->   - 팀 프로젝트 1
-> - Personal Project
->   - 개인 프로젝트 2
->   - 개인 프로젝트 1
-
-### markdown & image
-
-직장 경력과 마찬가지로, `markdown` 으로 내용을 작성하며, `image` 를 사용할 수 있어요.<br />
-markdown 경로는  **`/public/markdown/project/[id].md`** <br />
-image 경로는  **`/public/images/project/[id].md`** 입니다.
-
-
-<img width="361" alt="image" src="https://github.com/sjoleee/very-simple-portfolio/assets/82137004/94040844-5c8d-48bd-9ae4-4644c504da63">
-
-
-<br />
-<br />
-<br />
-<br />
-
-## activity
-
-
-<img width="960" alt="image" src="https://github.com/sjoleee/very-simple-portfolio/assets/82137004/25b4c229-d577-4bc7-89e7-2629e3660eb4">
-
-대회, 수상, 해커톤 등 각종 경험을 작성하는 곳이에요.<br />
-간략한 설명을 적는 `description`은 `\n`으로 줄바꿈이 가능합니다.<br />
-여기는 `markdown` 이나 `image` 를 사용할 수 없습니다.<br />
-**굳이 여기까지...?** 라는 생각에 간단한 설명 정도만 문자열로 출력하게 해두었는데, 필요하다면 `markdown` 및 `image` 를 사용할 수 있도록 업데이트해볼게요!<br />
-
-
-```json
-
   "activity": [
     {
       "id": 0,
